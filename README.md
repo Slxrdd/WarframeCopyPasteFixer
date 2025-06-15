@@ -1,57 +1,68 @@
-Warframe CopyPaste Fixer
-Author: Slxrdd
+# Warframe CopyPaste Fixer
 
-Overview
-This application is a simple desktop tool designed to fix copy-paste issues in Warframe.
+**Author:** Slxrdd
+
+---
+
+## Overview
+
+This application is a simple desktop tool designed to fix copy-paste issues in Warframe.  
 It allows you to send a predefined "thank you" message and paste clipboard content with custom hotkeys.
 
-Features
-Set custom hotkeys to send a thank-you message.
+---
 
-Set custom hotkeys to paste clipboard content.
+## Features
 
-GUI interface with a stylish background.
+- Set custom hotkeys to send a thank-you message.
+- Set custom hotkeys to paste clipboard content.
+- GUI interface with a stylish background.
+- Logs actions in real-time.
+- Open your social networks with one click.
 
-Logs actions in real-time.
+---
 
-Open your social networks with one click.
+## Requirements
 
-Requirements
-Python 3.7+ installed on your system.
-You can download Python from python.org.
+- **Python 3.7+** installed on your system.  
+  You can download Python from [python.org](https://www.python.org/downloads/).
 
-Required Python packages (can be installed via pip):
+- Required Python packages (can be installed via pip):
 
-nginx
-Copier
-Modifier
 tkinter
 pillow
 pynput
 pyperclip
 keyboard
-Note: tkinter is usually included with Python installations on Windows.
-On some Linux distributions, you may need to install it separately.
 
-Installation
-Install Python
 
-Download and install the latest Python 3 version from https://www.python.org/downloads/.
 
-Install required packages
 
-Open a terminal or command prompt and run the following commands:
+> Note: `tkinter` is usually included with Python installations on Windows.  
+> On some Linux distributions, you may need to install it separately.
 
-bash
-Copier
-Modifier
-pip install pillow pynput pyperclip keyboard
+---
+
+## Installation
+
+1. **Install Python**
+
+ Download and install the latest Python 3 version from [https://www.python.org/downloads/](https://www.python.org/downloads/).
+
+2. **Install required packages**
+
+ Open a terminal or command prompt and run the following commands:
+
+ ```bash
+ pip install pillow pynput pyperclip keyboard
+
 If you encounter permission issues, try:
 
 bash
 Copier
 Modifier
 python -m pip install --user pillow pynput pyperclip keyboard
+
+
 Download the release executable (optional)
 
 If you don't want to run the script directly, check the latest releases for a compiled executable version.
@@ -74,6 +85,7 @@ Key to paste clipboard content (default: 8)
 Click "Apply" to register the hotkeys.
 
 Use your hotkeys in any active window to trigger actions.
+
 
 Additional Notes
 The thank-you message is hardcoded in the script but can be modified inside the send_fixed_message() method.
@@ -101,9 +113,3 @@ This script is provided "as-is" without any warranty. Use it responsibly.
 
 Contact
 For any questions or suggestions, visit https://guns.lol/slxrdd.
-
-Installation snippet for packages (copy-paste to terminal)
-bash
-Copier
-Modifier
-pip install pillow pynput pyperclip keyboard
