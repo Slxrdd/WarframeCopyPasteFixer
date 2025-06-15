@@ -61,20 +61,21 @@ bash
 Copier
 Modifier
 python -m pip install --user pillow pynput pyperclip keyboard
+```
 
-
-Download the release executable (optional)
+3. Download the release executable (optional)
 
 If you don't want to run the script directly, check the latest releases for a compiled executable version.
 
 How to Run
 Running from source:
-
+ ```bash
 bash
 Copier
 Modifier
 python WarframeFixer.py
 Using the GUI
+```
 
 The app window opens with fields to set your hotkeys:
 
@@ -98,15 +99,18 @@ Troubleshooting
 Tkinter errors:
 Ensure tkinter is installed. On Ubuntu/Debian:
 
+ ```bash
 bash
 Copier
 Modifier
 sudo apt-get install python3-tk
 Permission denied when installing packages:
 Use --user flag with pip or run the terminal as Administrator.
-
+```
+ ```bash
 Hotkeys not working:
 Some hotkeys might be reserved by your OS or other applications. Try different keys.
+```
 
 License
 This script is provided "as-is" without any warranty. Use it responsibly.
